@@ -92,8 +92,8 @@ const Filters = () => {
           type="checkbox"
           name="jobType"
           id="check3"
-          value="Intership"
-          defaultChecked={checkHandler("jobType", "Intership")}
+          value="Internship"
+          defaultChecked={checkHandler("jobType", "Internship")}
           onClick={(e) => handleClick(e.target)}
         />
         <label className="form-check-label" htmlFor="check3">

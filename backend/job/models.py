@@ -25,7 +25,7 @@ class DiversityGroup(models.TextChoices):
 class JobType(models.TextChoices):
     Permanent = 'Permanent'
     Temporary = 'Temporary'
-    Intership = 'Intership'
+    Internship = 'Internship'
 
 class Education(models.TextChoices):
     Bachelors = 'Bachelors'
