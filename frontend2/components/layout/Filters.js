@@ -312,7 +312,7 @@ const Filters = () => {
           onClick={(e) => handleClick(e.target)}
         />
         <label className="form-check-label" htmlFor="check8">
-          1 Years
+          1 Year
         </label>
       </div>
 
@@ -342,7 +342,7 @@ const Filters = () => {
           onClick={(e) => handleClick(e.target)}
         />
         <label className="form-check-label" htmlFor="check10">
-          3 Year+
+          3 Years+
         </label>
       </div>
 
