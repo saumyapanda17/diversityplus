@@ -1,4 +1,4 @@
-export const diversityGroupOptions = ["Women", "Black/African American", "Hispanic/Latin", "Asian", "Veteran", "Disabled", "LGBTQIA+", "50+ Workforce"];
+export const diversityGroupOptions = ["Women", "Black/African American", "Hispanic/Latin", "Asian", "Veteran", "Disabled", "LGBTQIA", "50 Workforce"];
 export const jobTypeOptions = ["Permanent", "Temporary", "Internship"];
 export const educationOptions = ["Bachelors", "Masters", "Phd"];
 export const industriesOptions = [

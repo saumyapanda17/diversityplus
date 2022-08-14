@@ -19,8 +19,8 @@ class DiversityGroup(models.TextChoices):
     Asian = 'Asian'
     Veteran = 'Veteran'
     Disabled = 'Disabled'
-    LGBTQIA = 'LGBTQIA+'    
-    Workforce50 = '50+ Workforce'
+    LGBTQIA = 'LGBTQIA'    
+    Workforce50 = '50 Workforce'
 
 class JobType(models.TextChoices):
     Permanent = 'Permanent'

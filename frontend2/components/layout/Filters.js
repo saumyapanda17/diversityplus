@@ -209,8 +209,8 @@ const Filters = () => {
           type="checkbox"
           name="diversityGroup"
           id="check21"
-          value="LGBTQIA+"
-          defaultChecked={checkHandler("diversityGroup", "LGBTQIA+")}
+          value="LGBTQIA"
+          defaultChecked={checkHandler("diversityGroup", "LGBTQIA")}
           onClick={(e) => handleClick(e.target)}
         />
         <label className="form-check-label" htmlFor="check21">
@@ -225,8 +225,8 @@ const Filters = () => {
           type="checkbox"
           name="diversityGroup"
           id="check22"
-          value="50+ Workforce"
-          defaultChecked={checkHandler("diversityGroup", "50+ Workforce")}
+          value="50 Workforce"
+          defaultChecked={checkHandler("diversityGroup", "50 Workforce")}
           onClick={(e) => handleClick(e.target)}
         />
         <label className="form-check-label" htmlFor="check22">
