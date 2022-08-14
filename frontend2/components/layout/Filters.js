@@ -185,20 +185,22 @@ const Filters = () => {
         </label>
       </div>
 
+
       <div className="form-check">
         <input
           className="form-check-input"
           type="checkbox"
           name="diversityGroup"
           id="check20"
-          value="LGBTQIA+"
-          defaultChecked={checkHandler("diversityGroup", "LGBTQIA+")}
+          value="Disabled"
+          defaultChecked={checkHandler("diversityGroup", "Disabled")}
           onClick={(e) => handleClick(e.target)}
         />
         <label className="form-check-label" htmlFor="check20">
-        LGBTQIA+
+        Disabled
         </label>
       </div>
+
 
 
       <div className="form-check">
@@ -207,14 +209,15 @@ const Filters = () => {
           type="checkbox"
           name="diversityGroup"
           id="check21"
-          value="Disabled"
-          defaultChecked={checkHandler("diversityGroup", "Disabled")}
+          value="LGBTQIA+"
+          defaultChecked={checkHandler("diversityGroup", "LGBTQIA+")}
           onClick={(e) => handleClick(e.target)}
         />
         <label className="form-check-label" htmlFor="check21">
-        Disabled
+        LGBTQIA+
         </label>
       </div>
+
 
       <div className="form-check">
         <input
